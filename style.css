@@ -6,3 +6,6 @@ h1{font-family: "Shadows Into Light";
     text-align: center;
     text-transform: uppercase;
 }
+.header{
+    width: 200px;
+}
