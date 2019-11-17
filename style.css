@@ -1,6 +1,8 @@
 body{
  background-color: mintcream;
+ color: red;
 }
 h1{font-family: "Shadows Into Light";
     text-align: center;
+    text-transform: uppercase;
 }
