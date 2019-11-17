@@ -5,6 +5,7 @@ body{
 h1{font-family: "Shadows Into Light";
     text-align: center;
     text-transform: uppercase;
+    font-size: 50%;
 }
 .navigation ul{
     margin: 0;
