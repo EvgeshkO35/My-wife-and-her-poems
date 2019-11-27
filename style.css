@@ -40,3 +40,6 @@ footer{
     border-top: 2px solid silver;
     margin-top: 10px;
 }
+.navbar-nav li{
+    padding-right: 20px;
+}
