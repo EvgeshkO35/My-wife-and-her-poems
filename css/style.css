@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+ background-color: rgb(253, 254, 255);
+ color: navy;
+}
+h1 {font-family: "Shadows Into Light";
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+.row {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+a {
+    color: #f85c37;
+    padding-right: 50px;
+}
+
+header, footer {
+    width: 100%;
+    min-height: 50px;
+}
+header {
+    border-bottom: 2px solid silver;
+}
+footer {
+    padding: 1%;
+    border-top: 2px solid silver;
+    margin-top: 10px;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.carousel-inner {
+    height: 500px;
+}
+.carousel-inner img {
+    transform: translateY(-30%);
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+ position: absolute;
+ top: 50%;
+ transform: translateY(-100%);
+ text-shadow: 1px 1px 10px #000000;
+}
+#aboutme {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+#aboutme img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    float: left;
+}
+#aboutme .desc{
+    padding: 2em;
+    border-left: 4px solid #10828c;
+}
+#aboutme .desc h3{
+    color: #10828c;
+}
+#aboutme .desc p{
+    line-height: 2;
+    color: #888;
+}
+#wolfs, #unfulfilled, #sea, #tree, #scream{
+    border-top: 2px solid silver;
+}
+.fa-instagram, .fa-linkedin, .fa-vk {
+    font-size: 2em;
+
+}
+.fa-vk {color: #2a5885;}
+.fa-instagram {color: #000000;}
+.fa-linkedin {color: #0077b5;}
+.fa-instagram:hover, .fa-linkedin:hover, .fa-vk:hover {color: #cccccc;}
+@media( max-width: 350px ) {
+    .display-1 {
+        font-size: 1.5em;
+    }
+}
+.btn-success {
+  opacity: 0.6;
+  background-color: navy;
+}
+.btn-success:hover {
+    background-color: #10828c;
+}
+.btn-success:focus {
+    background-color: #10828c;
+}
