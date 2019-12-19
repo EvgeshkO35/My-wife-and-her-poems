@@ -77,7 +77,7 @@ footer {
     line-height: 2;
     color: #888;
 }
-#wolfs, #unfulfilled, #sea, #tree, #scream{
+#wolfs, #unfulfilled, #sea, #tree, #scream, #emptiness, #darkness, #night, #life, #breathe{
     border-top: 2px solid silver;
 }
 .fa-instagram, .fa-linkedin, .fa-vk {
@@ -97,9 +97,6 @@ footer {
   opacity: 0.6;
   background-color: navy;
 }
-.btn-success:hover {
-    background-color: #10828c;
-}
-.btn-success:focus {
+.btn-success:hover, .btn-success:focus {
     background-color: #10828c;
 }
