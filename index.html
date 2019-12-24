@@ -65,28 +65,15 @@
                 </div>
               </div>
         </div>
-        <!--main block-->
-<div id="aboutme">
-            <h3 class="text-center" style="text-transform:uppercase">About me</h3>
-            <hr>
-            <br><br>
-            <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-        <img src="img/XAjUw4E8RXs.jpg" alt="Veronika Lysenko" class="img-fluid"> 
-    </div>
-        <div class="col-lg-8 col-md-8 col-sm-12 desc">
-            <h3>Veronika L.</h3>
-            <p>I think, there is nothing special in me. I was born in a small russian town, I grown up in lovely family (best family in the world, actually), I become a cemical engeneer (not a good decision) and got married (still can't believe he doesn't joking). All my life I wanted to be a writer, don't know why, just felt that it's mine. Now I got lost in reality. But I know, the right words still inside of my heart. Most of my poems in Russian, but I hope, one day I will write in English too. Thanks to my husband, now I have a place to share my life with you.</p>
-    </div>
-    </div>
- </div>
 <!--block with poems-->
     <div id="listpoems">
 <h3 class="text-center" style="text-transform: uppercase;">Poems</h3>
 <hr>
 <br><br>
-<ul class="discription"> 
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#wolfs">Волков бояться...</button></li>
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-6">
+    <button type="button" class="btn btn-success " data-toggle="collapse" data-target="#wolfs">Волков бояться...</button>
     <p id="wolfs" style="text-align: center;" class="collapse">
                    
                     Волков бояться - в лес не ходить, не бежать,
@@ -157,7 +144,7 @@
                    
     </p>
     <br>
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#unfulfilled">Несбывшееся</button></li>
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#unfulfilled">Несбывшееся</button>
     <p id="unfulfilled" style="text-align: center;" class="collapse">
                
             Несбывшееся сидит на твоих коленях,
@@ -213,7 +200,7 @@
 
      </p>
     <br>
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#sea">Море</button></li>
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#sea">Море</button>
     <p id="sea" style="text-align: center;" class="collapse">
                
             Шелест ветра уносит в тихую гавань,
@@ -288,7 +275,7 @@
     
      </p>
     <br>
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#scream">Крик</button></li>
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#scream">Крик</button>
     <p id="scream" style="text-align: center;" class="collapse">
            
             Новый шанс провален и пропущен,
@@ -362,7 +349,7 @@
 
     </p>
     <br>
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#tree">Дерево</button></li>
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#tree">Дерево</button>
     <p id="tree" style="text-align: center;" class="collapse">
            
             Я - дерево, сожгите мои ветви!
@@ -419,8 +406,10 @@
             Тишиной.
 
     </p>
-    <div class="text-right">
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#emptiness">Пустота</button></li>
+    </div>
+    <div class="col-md-6">
+        <div class="text-right">
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#emptiness">Пустота</button>
     <p id="emptiness" style="text-align: center;" class="collapse">
         
         Я стою на краю, но не делаю шаг вперед.
@@ -463,7 +452,7 @@
 
     </p>
     <br>
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#breathe">Дыши</button></li>
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#breathe">Дыши</button>
     <p id="breathe" style="text-align: center;" class="collapse">
         
         Дыши.
@@ -537,7 +526,7 @@
 
     </p>
     <br>
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#life">Жизнь</button></li>
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#life">Жизнь</button>
     <p id="life" style="text-align: center;" class="collapse">
         
         Так, дорогой.
@@ -664,7 +653,7 @@
 
     </p>
     <br>
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#night">Ночь</button></li>
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#night">Ночь</button>
     <p id="night" style="text-align: center;" class="collapse">
         
         Остановись, выключи, финал не смотри,
@@ -751,7 +740,7 @@
 
     </p>
     <br>
-    <li><button type="button" class="btn btn-success" data-toggle="collapse" data-target="#darkness">Темнота</button></li>
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#darkness">Темнота</button>
     <p id="darkness" style="text-align: center;" class="collapse">
         
         Вечер тёмен, ласкает прохлада,
@@ -824,12 +813,31 @@
         И нежный покой темноты.
 
     </p>
+        </div>
+</div>
+</div>
     </div>
-</ul>
     </div>
-
     <br>
     <br>
+    <!--aboutme block-->
+<div id="aboutme">
+    <div class="container-fluid">
+    <h3 class="text-center" style="text-transform:uppercase">About me</h3>
+    <hr>
+    <br><br>
+    <div class="row">
+<div class="col-lg-4 col-md-4 col-sm-12">
+<img src="img/XAjUw4E8RXs.jpg" alt="Veronika Lysenko" class="img-fluid"> 
+</div>
+<div class="col-lg-8 col-md-8 col-sm-12 desc">
+    <h3>Veronika L.</h3>
+    <p>I think, there is nothing special in me. I was born in a small russian town, I grown up in lovely family (best family in the world, actually), I become a cemical engeneer (not a good decision) and got married (still can't believe he doesn't joking). All my life I wanted to be a writer, don't know why, just felt that it's mine. Now I got lost in reality. But I know, the right words still inside of my heart. Most of my poems in Russian, but I hope, one day I will write in English too. Thanks to my husband, now I have a place to share my life with you.</p>
+</div>
+</div>
+</div>
+</div>
+    <!--footer block-->
     <footer class="bg-light" id="contacts">
         <div class="container-fluid">
         <div class="row">
@@ -844,7 +852,7 @@
     </div>
     </div>
     </footer>
-    
+
 
 
 
