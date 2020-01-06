@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Miltonian+Tattoo&display=swap');
+@media (max-width: 500px) {
+    .display-1{
+        font-size: 1.5em;
+    }
+}
+.p0 {
+    padding: 0;
+}
+nav {
+    scroll-behavior: smooth;
+}
 *{
     padding: 0;
     margin: 0;
@@ -55,6 +66,9 @@ footer {
  top: 50%;
  transform: translateY(-100%);
  text-shadow: 1px 1px 10px #000000;
+}
+.quote {
+    padding-right: 7px;
 }
 #aboutme {
     margin: 4em 0;
